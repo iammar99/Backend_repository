@@ -1,0 +1,4 @@
+Hello World!!
+This is First Chapter of Node.js
+I'm using this file to understand how to read a file using node.js
+This text is appended using Node.js
