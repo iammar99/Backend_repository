@@ -6,6 +6,8 @@
 Table of Content 
 - [Chapter # 1](#chapter--1)
   - [Introduction to Node, NPM, Package.JSON](#introduction-to-node-npm-packagejson)
+  - [What is NPM](#what-is-npm)
+  - [What is Package](#what-is-package)
   - [What is Node.js](#what-is-nodejs)
   - [Why Node.js](#why-nodejs)
   - [What Node.js can do](#what-nodejs-can-do)
@@ -17,6 +19,21 @@ Table of Content
   - [Running a node.js file](#running-a-nodejs-file)
   - [Practical Work](#practical-work)
   - [References](#references)
+
+
+## What is NPM
+
+NPM is a package manager for Node.js packages, or modules if you like.
+
+www.npmjs.com hosts thousands of free packages to download and use.
+
+The NPM program is installed on your computer when you install Node.js
+
+## What is Package
+
+A package in Node.js contains all the files you need for a module.
+
+Modules are JavaScript libraries you can include in your project.
 
 
 ## What is Node.js
@@ -67,36 +84,36 @@ You can understand easily from here
 
 This table summarizes the core modules available in Node.js, their purpose, and their current status.
 
-| **Module**         | **Description**                                   | **Status**         |
-|---------------------|---------------------------------------------------|--------------------|
-| `assert`           | Provides a set of assertion tests                | Active             |
-| `buffer`           | Handles binary data                              | Active             |
-| `child_process`    | Runs a child process                              | Active             |
-| `cluster`          | Splits a single Node process into multiple processes | Active          |
-| `crypto`           | Handles OpenSSL cryptographic functions          | Active             |
-| `dgram`            | Provides implementation of UDP datagram sockets  | Active             |
-| `dns`              | Performs DNS lookups and name resolution functions | Active           |
-| `domain`           | Handles unhandled errors (Deprecated)            | Deprecated         |
-| `events`           | Handles events                                   | Active             |
-| `fs`               | Handles the file system                          | Active             |
-| `http`             | Makes Node.js act as an HTTP server              | Active             |
-| `https`            | Makes Node.js act as an HTTPS server             | Active             |
-| `net`              | Creates servers and clients                      | Active             |
-| `os`               | Provides information about the operating system  | Active             |
-| `path`             | Handles file paths                               | Active             |
-| `punycode`         | A character encoding scheme (Deprecated)         | Deprecated         |
-| `querystring`      | Handles URL query strings                        | Active             |
-| `readline`         | Handles readable streams one line at a time      | Active             |
-| `stream`           | Handles streaming data                           | Active             |
-| `string_decoder`   | Decodes buffer objects into strings              | Active             |
-| `timers`           | Executes a function after a given number of milliseconds | Active      |
-| `tls`              | Implements TLS and SSL protocols                 | Active             |
-| `tty`              | Provides classes used by a text terminal         | Active             |
-| `url`              | Parses URL strings                               | Active             |
-| `util`             | Provides access to utility functions             | Active             |
-| `v8`               | Provides information about V8 (the JavaScript engine) | Active        |
-| `vm`               | Compiles JavaScript code in a virtual machine    | Active             |
-| `zlib`             | Compresses or decompresses files                 | Active             |
+| **Module**       | **Description**                                          | **Status** |
+| ---------------- | -------------------------------------------------------- | ---------- |
+| `assert`         | Provides a set of assertion tests                        | Active     |
+| `buffer`         | Handles binary data                                      | Active     |
+| `child_process`  | Runs a child process                                     | Active     |
+| `cluster`        | Splits a single Node process into multiple processes     | Active     |
+| `crypto`         | Handles OpenSSL cryptographic functions                  | Active     |
+| `dgram`          | Provides implementation of UDP datagram sockets          | Active     |
+| `dns`            | Performs DNS lookups and name resolution functions       | Active     |
+| `domain`         | Handles unhandled errors (Deprecated)                    | Deprecated |
+| `events`         | Handles events                                           | Active     |
+| `fs`             | Handles the file system                                  | Active     |
+| `http`           | Makes Node.js act as an HTTP server                      | Active     |
+| `https`          | Makes Node.js act as an HTTPS server                     | Active     |
+| `net`            | Creates servers and clients                              | Active     |
+| `os`             | Provides information about the operating system          | Active     |
+| `path`           | Handles file paths                                       | Active     |
+| `punycode`       | A character encoding scheme (Deprecated)                 | Deprecated |
+| `querystring`    | Handles URL query strings                                | Active     |
+| `readline`       | Handles readable streams one line at a time              | Active     |
+| `stream`         | Handles streaming data                                   | Active     |
+| `string_decoder` | Decodes buffer objects into strings                      | Active     |
+| `timers`         | Executes a function after a given number of milliseconds | Active     |
+| `tls`            | Implements TLS and SSL protocols                         | Active     |
+| `tty`            | Provides classes used by a text terminal                 | Active     |
+| `url`            | Parses URL strings                                       | Active     |
+| `util`           | Provides access to utility functions                     | Active     |
+| `v8`             | Provides information about V8 (the JavaScript engine)    | Active     |
+| `vm`             | Compiles JavaScript code in a virtual machine            | Active     |
+| `zlib`           | Compresses or decompresses files                         | Active     |
 
 
 
